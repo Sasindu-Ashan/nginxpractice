@@ -1,0 +1,50 @@
+Nginx (pronounced "engine x"[9] /ˌɛndʒɪnˈɛks/ EN-jin-EKS, stylized as NGINX or nginx) is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. The software was created by Russian developer Igor Sysoev and publicly released in 2004.[10] Nginx is free and open-source software, released under the terms of the 2-clause BSD license. A large fraction of web servers use Nginx,[11] often as a load balancer.[12]
+
+What is NGINX?
+NGINX (pronounced "engine-x") is a high-performance web server and reverse proxy server that also works as:
+
+Load balancer
+
+HTTP cache
+
+Mail proxy
+
+Originally designed to handle high concurrency with low memory usage, it’s widely used for serving websites, APIs, and apps due to its speed and efficiency.
+
+Why Use NGINX?
+✅ Lightweight and Fast
+
+✅ Handles 10,000+ concurrent connections
+
+✅ Open-source and actively maintained
+
+✅ Used by top sites (Netflix, Dropbox, GitHub)
+
+Nginx may be configured to serve static web content or to act as a proxy server.[21]
+
+Nginx can be deployed to also serve dynamic content on the network using FastCGI, SCGI handlers for scripts, WSGI application servers or Phusion Passenger modules, and can serve as a software load balancer.[22][21]
+
+Nginx uses an asynchronous event-driven approach, rather than threads, to handle requests.[23] Nginx's modular event-driven architecture can provide predictable performance under high loads.
+
+What is Caching in NGINX?
+Caching in NGINX refers to storing a copy of a response (like an HTML page or API result) so that the next time someone asks for the same resource, NGINX can deliver it faster without contacting the backend server again.
+⚡ Why Use Caching?
+✅ Improves speed and user experience
+
+✅ Reduces load on backend servers
+
+✅ ✅ Saves bandwidth and system resources
+
+Types of Caching in NGINX
+Static File Caching (by browser):
+
+You set headers to tell the browser to cache static files (images, CSS, JS).
+
+Proxy Caching (by NGINX):
+
+NGINX caches content from an upstream server (like a Node.js/PHP API).
+
+
+
+
+
